@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Bootstrap</title>
+	<title>facebook-bootstrap</title>
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -14,7 +14,43 @@
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+	<nav class="navbar navbar-default">
+	  	<div class="container">
 
+	    	<div class="navbar-header">
+				<a class="fbBrandIcon navbar-brand" href="#">
+					<i class="fa fa-facebook-square"></i>
+				</a>
+				<form class="navbar-form navbar-left" role="search">
+				  	<div class="form-group">
+						<div class="input-group">
+						  	<input type="text" style="width:400px" class="form-control input-sm" placeholder="Search Facebook">
+						  	<span class="input-group-addon"><i class="fa fa-search"></i></span>
+						</div>
+					</div>
+				</form>
+			</div> <!-- navbar search -->
+
+			<div class="navbar-header navbar-right">
+				<div class="navbar-form">
+					<div class="btn-group btn-group-sm" role="group" aria-label="...">
+					  <div class="btn btn-default" role="group" aria-label="Brandon"><i class="fa fa-user"></i> Brandon</div>
+					  <div class="btn btn-default" role="group" aria-label="Home">Home</div>
+					</div>
+					<div class="btn-group btn-group-sm" role="group" aria-label="...">
+					  <div class="btn btn-default" role="group" aria-label="Friend Requests"><i class="fa fa-user-plus"></i></div>
+					  <div class="btn btn-default" role="group" aria-label="Messages"><i class="fa fa-comments"></i></div>
+					  <div class="btn btn-default" role="group" aria-label="Notifications"><i class="fa fa-globe"></i></div>
+					</div>
+					<div class="btn-group btn-group-sm" role="group" aria-label="...">
+					  <div class="btn btn-default" role="group" aria-label="Privacy"><i class="fa fa-lock"></i></div>
+					  <div class="btn btn-default" role="group" aria-label="Menu"><i class="fa fa-caret-down"></i></div>
+					</div>
+				</div>
+	    	</div> <!-- navbar options -->
+
+	  	</div>
+	</nav>
 	
 	<!-- Bootstrap JS -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>

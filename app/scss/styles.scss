@@ -5,6 +5,10 @@
     margin-right: -22px;
 }
 
+main {
+	margin-top: 65px;
+}
+
 h6 {
 	text-transform: uppercase;
 	color: #777;
@@ -20,3 +24,35 @@ h6 {
 .badge {
 	font-size: 10px;
 }
+
+.post-news-feed__wrapper {
+	padding: 10px;
+	padding-bottom: 0px;
+	textarea {
+		margin-top: 8px;
+	}
+}
+
+.post-news-feed__options {
+	li {
+		font-size: 12.5px;
+		a {
+			padding: 6px 10px;
+		} 
+	}
+}
+
+.post-news-feed__widgets {
+	padding: 0px;
+	padding-top: 5px;
+}
+
+.post-news-feed__buttons {
+	padding: 10px;
+	padding-right: 0px;
+	.btn-default {
+		margin-right: 4px;
+	}
+}
+
+

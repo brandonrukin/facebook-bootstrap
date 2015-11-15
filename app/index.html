@@ -14,9 +14,8 @@
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default navbar-fixed-top">
 	  	<div class="container">
-
 	    	<div class="navbar-header">
 				<a class="fbBrandIcon navbar-brand" href="#">
 					<i class="fa fa-facebook-square"></i>
@@ -30,7 +29,6 @@
 					</div>
 				</form>
 			</div> <!-- navbar search -->
-
 			<div class="navbar-header navbar-right">
 				<div class="navbar-form">
 					<div class="btn-group btn-group-sm" role="group" aria-label="...">
@@ -48,14 +46,12 @@
 					</div>
 				</div>
 	    	</div> <!-- navbar options -->
-
 	  	</div>
 	</nav>
 
 	<main class="container">
 		<div class="row">
 	  		<div class="col-md-3">
-				
 				<div class="list-group">
 				  	<a class="list-group-item" href="#">
 				  		<i class="fa fa-user fa-fw"></i> 
@@ -66,7 +62,6 @@
 				  		Edit Profile
 				  	</a>
 				 </div> <!-- general list-group -->
-				
 				<h6>Favorites</h6>
 	  			<div class="list-group">
 				  	<a class="list-group-item" href="#">
@@ -89,7 +84,6 @@
 				  		Saved
 				  	</a>
 				</div> <!-- favorites list-group -->
-
 				<h6>Apps</h6>
 	  			<div class="list-group">
 				  	<a class="list-group-item" href="#">
@@ -111,7 +105,6 @@
 				  		Games Feed
 				  	</a>
 				</div> <!-- favorites list-group -->
-
 				<h6>Friends</h6>
 	  			<div class="list-group">
 				  	<a class="list-group-item" href="#">
@@ -153,9 +146,39 @@
 				  		<span class="badge">15</span> 
 				  		Acquaintances
 				  	</a>
-				</div> <!-- favorites list-group -->
+				</div> <!-- favorites widgets -->
+			</div> <!-- left nav widgets -->
 
-			</div>
+			<div class="col-md-6">
+				<div class="panel panel-default">
+				  	<div class="panel-body post-news-feed__wrapper">
+						<ul class="nav nav-tabs post-news-feed__options">
+							<li role="presentation" class="active">
+								<a href="#"><i class="fa fa-pencil-square"></i> Update Status</a>
+							</li>
+							<li role="presentation">
+								<a href="#"><i class="fa fa-picture-o"></i> Add Photos/Video</a>
+							</li>
+							<li role="presentation">
+								<a href="#"><i class="fa fa-object-group"></i> Create Photo Album</a>
+							</li>
+						</ul>
+						<textarea class="form-control" placeholder="What's on your mind?"></textarea>
+						<div class="pull-left post-news-feed__widgets">
+							<ul class="nav nav-pills" role="tablist">
+							  <li role="presentation"><a href="#"><i class="fa fa-camera"></i></a></li>
+							  <li role="presentation"><a href="#"><i class="fa fa-user-plus"></i></a></li>
+							  <li role="presentation"><a href="#"><i class="fa fa-smile-o"></i></a></li>
+							  <li role="presentation"><a href="#"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Columbus</a></li>
+							</ul>
+						</div>
+						<div class="pull-right post-news-feed__buttons">
+							<button type="button" class="btn btn-default btn-sm"><i class="fa fa-users"></i> Friends <i class="fa fa-caret-down"></i></button>
+							<button type="button" class="btn btn-primary btn-sm">Post</button>
+						</div>
+					</div>
+				</div>
+			</div> <!-- news feed -->
 		</div>
 	</main>
 

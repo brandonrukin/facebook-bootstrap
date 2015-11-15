@@ -153,27 +153,35 @@
 				<div class="panel panel-default">
 				  	<div class="panel-body post-news-feed__wrapper">
 						<ul class="nav nav-tabs post-news-feed__options">
-							<li role="presentation" class="active">
+							<li role="presentation" class="active" data-toggle="tooltip" data-placement="bottom" title="Update Status">
 								<a href="#"><i class="fa fa-pencil-square"></i> Update Status</a>
 							</li>
-							<li role="presentation">
+							<li role="presentation" data-toggle="tooltip" data-placement="bottom" title="Add Photo/Video">
 								<a href="#"><i class="fa fa-picture-o"></i> Add Photos/Video</a>
 							</li>
-							<li role="presentation">
+							<li role="presentation" data-toggle="tooltip" data-placement="bottom" title="Create Photo Album">
 								<a href="#"><i class="fa fa-object-group"></i> Create Photo Album</a>
 							</li>
 						</ul>
 						<textarea class="form-control" placeholder="What's on your mind?"></textarea>
 						<div class="pull-left post-news-feed__widgets">
 							<ul class="nav nav-pills" role="tablist">
-							  <li role="presentation"><a href="#"><i class="fa fa-camera"></i></a></li>
-							  <li role="presentation"><a href="#"><i class="fa fa-user-plus"></i></a></li>
-							  <li role="presentation"><a href="#"><i class="fa fa-smile-o"></i></a></li>
-							  <li role="presentation"><a href="#"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Columbus</a></li>
+								<li role="presentation" data-toggle="tooltip" data-placement="top" title="Add photos to your post">
+									<a href="#"><i class="fa fa-camera"></i></a>
+								</li>
+								<li role="presentation" data-toggle="tooltip" data-placement="top" title="Tag people in your post">
+									<a href="#"><i class="fa fa-user-plus"></i></a>
+								</li>
+								<li role="presentation" data-toggle="tooltip" data-placement="top" title="Add what you're doing or how you're feeling">
+									<a href="#"><i class="fa fa-smile-o"></i></a>
+								</li>
+								<li role="presentation" data-toggle="tooltip" data-placement="top" title="Add a location to your post">
+									<a href="#"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Columbus</a>
+								</li>
 							</ul>
 						</div>
 						<div class="pull-right post-news-feed__buttons">
-							<button type="button" class="btn btn-default btn-sm"><i class="fa fa-users"></i> Friends <i class="fa fa-caret-down"></i></button>
+							<button type="button" class="btn btn-default btn-sm" data-toggle="tooltip" data-placement="top" title="Your friends"><i class="fa fa-users"></i> Friends <i class="fa fa-caret-down"></i></button>
 							<button type="button" class="btn btn-primary btn-sm">Post</button>
 						</div>
 					</div>
@@ -187,5 +195,8 @@
 	
 	<!-- Bootstrap JS -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<!-- Main JS -->
+	<script src="js/script.js"></script>
 </body>
 </html>
